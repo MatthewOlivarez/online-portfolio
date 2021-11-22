@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="has-navbar-fixed-top">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,31 +8,6 @@
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 <body>
-
-    <!-- <div class="container head">
-        <nav class="level is-mobile">
-            
-                <p class="level-item has-text-right">
-                <a class="link is-info has-text-primary-dark">Projects</a>
-                </p>
-                <p class="level-item has-text-centered has-text-weight-bold is-size-2">
-                <a class="link is-info has-text-primary-dark">Matthew Olivarez</a>
-                </p>
-                <p class="level-item has-text-left">
-                <a class="link is-info has-text-primary-dark">About</a>
-                </p>
-            
-        </nav>
-    </div>
-
-    <div class="container">
-        <section class="section">
-            <h1 class="title">Medium section</h1>
-            <h2 class="subtitle">
-              A simple container to divide your page into <strong>sections</strong>, like the one you're currently reading.
-            </h2>
-        </section>
-    </div> -->
 
     <div class="header" id="top">
         <div class="header-text">
@@ -50,18 +25,34 @@
     
     <div class="container">
         <div id="about"></div>
-        <div class="subtitles">
+        <div class="subtitles subtitles1">
             <h1>About Me</h1>
         </div>
         <div class="wrapper wrapper1">
             <div class="service">
-                <h2>Box One</h2>
-                <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
+                <h2>About</h2>
+                <p class="paragraph">I am a non-traditional student currently enrolled in a Bachelor of Science in Computer Science program at St. Mary's University. I have coursework experience programming small projects for in C and C++. Additionally, I have personal experience using JavaScript, HTML, and CSS to build small websites and projects.</p>
             </div>
             <div class="service">
                 <h2>Contact</h2>
                 <div class="contact-info">
-                    <p class="contact-p"><i class="fas fa-envelope-square"></i></p>
+                    <p class="contact-p">
+                        <i class="fas fa-envelope-square" id="email-square"></i>
+                        <!-- <div class="form-popup" id="myForm">
+                            <form class="form-container">
+                                <h1>Send me an email</h1>
+                          
+                                <label for="email"><b>Email</b></label>
+                                <input type="text" placeholder="Enter Email" name="email" required>
+                          
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="psw" required>
+                          
+                                <button type="submit" class="btn">Login</button>
+                                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                            </form>
+                        </div> -->
+                    </p>
                     <p class="contact-p"><a href="www.github.com/mattolivarez"><i class="fab fa-github-square"></i></a></p>
                     <p class="contact-p"><a href="www.linkedin.com/in/matthewolivarez"><i class="fab fa-linkedin"></i></a></p>
                 </div>
@@ -75,32 +66,35 @@
 
     <div class="container">
         <div id="projects"></div>
-        <div class="subtitles">
+        <div class="subtitles subtitles2">
             <h1>Projects</h1>
         </div>
         <div class="wrapper wrapper2">
             <div class="service">
                 <h2>Online Portfolio</h2>
-                <img class="project-imgs" src="https://i.imgur.com/YUsrWOY.png" alt="online portfolio">
+                <img class="project-imgs" src="https://i.imgur.com/8JVY5vA.png" alt="online portfolio">
             </div>
             <div class="service">
-                <h2>RGB Guess Game</h2>
-                <p></p>
+                <h2>RGB Game</h2>
+                <img class="project-imgs" src="https://i.imgur.com/wF7kHXy.png" alt="rgb game">
             </div>
             <div class="service">
                 <h2>Scientific Calculator</h2>
-                <p></p>
+                <img class="project-imgs" src="https://i.imgur.com/690ekJv.png" alt="scientific calculator app">
             </div>
-            <div class="service">
+            <!-- <div class="service">
                 <h2>Box Four</h2>
                 <p>In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available.</p>
-            </div>
+            </div> -->
         </div>
         <div class="page-links">
             <a href="#top" class="arrows">Back To Top <span class="fas fa-angle-double-up"></span></a>
         </div>
     </div>
 
+
+    <script src="/javascript/script.js"></script>
     <script src="https://kit.fontawesome.com/1ff31bbc98.js" crossorigin="anonymous"></script>
+    
 </body>
 </html>
